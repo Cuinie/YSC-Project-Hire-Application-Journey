@@ -1,0 +1,380 @@
+body {
+    margin: 0px;
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 70px;
+    font-weight: bolder;
+  color: aliceblue;
+  font-size: 150%;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    line-height: 100px;
+    color: aliceblue;
+    margin-top: 0%;
+    background-color: black;
+    
+}
+
+header * {
+    display: inline;
+    font-style:normal;
+    
+    
+   
+
+}
+
+header ul {
+    padding: 0;
+    font-size: 25px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   
+}
+
+header li {
+    margin-left: 80px;
+  
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+    
+}
+#hero .blockquote {
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-decoration:double;
+    position: center;
+    margin-top: 0%;
+   
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#hero h1 {
+    font-size: 3em;
+    color: aliceblue;
+    font-family:fantasy;
+    font-style: italic;
+
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(244, 243, 243);
+
+}
+
+div.gallery {
+   
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    font-size: 150%;
+    font-size: Bold;
+    position: center;
+    margin-left:15%;
+    margin-top: 2%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+#about .section-inner{
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: Bold;
+    margin-top: 1%;
+    color: white;
+}
+#about .par{
+    color: white;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+} 
+
+
+
+
+
+  
+  .container {
+    display: flex;
+    gap: 100px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+   
+  }
+  
+  #posts {
+    width: 400px;
+    font-weight: bolder;
+    color: aliceblue;
+    gap: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+  }
+  
+  i {
+    cursor: pointer;
+    gap: 100px;
+    
+ 
+  }
+  #posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    font-size: 100%;
+
+       
+  }
+  
+  .options {
+    display: flex;
+    gap: 50px;
+    font-size: 100%;
+
+  }
+  
+  #msg {
+    color: red;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+.question{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: auto;
+    color: white;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url('images/pexels-adrien-olichon-2931246.jpg');
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: url('images/pexels-adrien-olichon-2931246.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255,255,255,0.75)), url('images/pexels-adrien-olichon-2931246.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.791)), url('images/pexels-adrien-olichon-2931246.jpg');
+}
+#foot{
+    background-color: black;
+    color: white;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body > div {
+	background-color: #dbe2e8;
+	font-family: "Oswald", sans-serif;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	color: #07395c;
+}
+
+.section-contact {
+    padding: 120px;
+		background-color: #fff;
+}
+
+.section-contact .header-section .title {
+	position: relative;
+	margin-bottom: 17px;
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.section-contact .header-section .title .dot {
+    display: inline-block;
+	position: absolute;
+    bottom: 8px;
+    width: 8px;
+    height: 8px;
+    margin-left: 3px;
+    background-color: #000000;
+}
+
+.section-contact .header-section .description {
+	font-family: "Roboto", sans-serif;
+	color: #000000;
+}
+
+.section-contact .header-section .big-title {
+	position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%,70%);
+    font-size: 120px;
+    font-weight: 700;
+    opacity: 0.15;
+}
+
+.section-contact .form-contact {
+
+}
+
+.section-contact .form-contact .single-input {
+	position: relative;
+    margin-top: 40px;
+}
+
+.section-contact .form-contact .single-input i {
+	position: absolute;
+    top: 5px;
+    left: 15px;
+    color: #000000;
+}
+
+.section-contact .form-contact .single-input input,
+.section-contact .form-contact .single-input textarea {
+	width: 100%;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+		transition: border .3s;
+}
+
+.section-contact .form-contact .single-input input::placeholder,
+.section-contact .form-contact .single-input textarea::placeholder {
+	color: rgba(7, 57, 92, .3);
+}
+
+.section-contact .form-contact .single-input input:focus,
+.section-contact .form-contact .single-input textarea:focus {
+	border-color: #000000;
+}
+
+.section-contact .form-contact .single-input textarea {
+	height: 150px;
+	min-height: 50px;
+}
+
+.section-contact .form-contact .submit-input input {
+	margin-top: 40px;
+    padding: 15px 50px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    transition: background-color .3s;
+}
+
+.section-contact .form-contact .submit-input input:hover {
+	background-color: #000000;
+}
+
+@media (max-width: 575.99px) {
+	.section-contact {
+	    padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+	    font-size: 40px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 80px;
+	}
+
+	.section-contact .header-section .description {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+	.section-contact {
+	    padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+	    font-size: 45px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 100px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.section-contact {
+	    padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+	    font-size: 45px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 100px;
+	}
+}
